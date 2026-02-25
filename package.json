@@ -1,0 +1,34 @@
+{
+  "name": "kou-logistics",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^4.2.1",
+    "leaflet-defaulticon-compatibility": "^0.1.2",
+    "turf": "^3.0.14",
+    "@turf/turf": "^6.5.0",
+    "framer-motion": "^11.0.8",
+    "recharts": "^2.12.2",
+    "lucide-react": "^0.344.0",
+    "axios": "^1.6.7",
+    "clsx": "^2.1.0",
+    "tailwind-merge": "^2.2.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0"
+  }
+}
