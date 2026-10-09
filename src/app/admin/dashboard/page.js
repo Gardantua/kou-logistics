@@ -243,7 +243,7 @@ export default function Dashboard() {
                                 }}
                                 className="w-full text-xs text-red-500 hover:text-red-400 py-1"
                             >
-                                Delete "{selectedScenario.replace('USER:', '')}"
+                                Delete &quot;{selectedScenario.replace('USER:', '')}&quot;
                             </button>
                         )}
 
@@ -410,7 +410,7 @@ export default function Dashboard() {
                                                 ))}
                                             </div>
                                             <p className="text-[10px] text-red-400 mt-2 italic">
-                                                Capacity exceeded. Enable "Unlimited" or add vehicles.
+                                                Capacity exceeded. Enable &quot;Unlimited&quot; or add vehicles.
                                             </p>
                                         </div>
                                     )}
