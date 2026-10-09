@@ -35,3 +35,20 @@ fetch_debug.js
 read_debug.js
 test_graph.js
 verification_result.json
+
+# Local configuration and generated files
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+node_modules/
+*.log
+.DS_Store
